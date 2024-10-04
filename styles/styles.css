@@ -1,0 +1,145 @@
+/* Reset de margens */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do body */
+body {
+  background: linear-gradient(to right, rgba(255, 126, 95, 0.9), rgba(254, 180, 123, 0.9)); /* Gradiente linear com opacidade */
+  display: flex;
+  justify-content: center;
+  font-family: 'Arial', sans-serif; /* Fonte moderna */
+}
+
+/* Wrapper principal */
+.wrapper {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: white; /* Cor de fundo do conteúdo */
+  border-radius: 10px; /* Bordas arredondadas do wrapper */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do wrapper */
+}
+
+/* Estilos do cabeçalho */
+.header {
+  background-color: #d45d00; /* Cor de fundo do cabeçalho */
+  min-height: 150px;
+  text-align: center; /* Centraliza o texto no cabeçalho */
+  color: white; /* Cor do texto no cabeçalho */
+  padding: 20px 0; /* Espaçamento interno do cabeçalho */
+}
+
+.header img {
+  width: 100%; /* A imagem ocupa toda a largura do cabeçalho */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Menu lateral */
+.menu {
+  background-color: #ff6f61; /* Cor de fundo do menu */
+  padding: 10px 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 10px 0; /* Espaçamento entre os itens do menu */
+}
+
+.menu a {
+  text-decoration: none;
+  color: white; /* Cor do texto */
+  font-weight: bold; /* Texto em negrito */
+  transition: color 0.3s; /* Efeito de transição suave */
+}
+
+.menu a:hover {
+  color: #ffd700; /* Cor do texto ao passar o mouse */
+}
+
+/* Conteúdo principal */
+.content {
+  background-color: #fff3e0; /* Cor de fundo do conteúdo */
+  min-height: 300px;
+  padding: 20px;
+  border-radius: 10px; /* Bordas arredondadas do conteúdo */
+}
+
+/* Caixa de informações de contato */
+.caixa-contato {
+  border: 1px solid #ff7e5f; /* Borda da caixa */
+  border-radius: 5px; /* Bordas arredondadas */
+  padding: 20px; /* Espaçamento interno da caixa */
+  background-color: #ffffff; /* Cor de fundo da caixa */
+  margin-bottom: 20px; /* Espaçamento abaixo da caixa */
+}
+
+.caixa-contato:hover{
+  background-color: #ff9e6f; /* Cor de fundo da caixa ao passar o mouse */
+  transition: 0,3s;
+}
+
+/* Tabela de preços */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Remove espaços entre as bordas da tabela */
+  margin-top: 20px; /* Espaçamento acima da tabela */
+}
+
+th, td {
+  border: 1px solid #ff7e5f; /* Borda da tabela */
+  padding: 8px; /* Espaçamento interno das células */
+  text-align: left; /* Alinhamento do texto */
+}
+
+th {
+  background-color: #d45d00; /* Cor de fundo das cabeçalos */
+  color: white; /* Cor do texto das cabeçalos */
+}
+
+/* Rodapé */
+.footer {
+  background-color: rgba(212, 93, 0, 80%); /* Cor de fundo do rodapé com opacidade */
+  min-height: 150px;
+  text-align: center; /* Centraliza o texto do rodapé */
+  padding: 20px;
+  color: white; /* Cor do texto do rodapé */
+}
+
+/* Estiliza os inputs */
+input[type="text"], input[type="email"], textarea {
+  width: 100%; /* Faz os campos ocuparem toda a largura disponível */
+  padding: 10px; /* Espaçamento interno nos campos */
+  border: 2px solid #ff7e5f; /* Borda dos campos */
+  border-radius: 5px; /* Bordas arredondadas dos campos */
+  margin-bottom: 15px; /* Espaçamento entre os campos */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Define a aparência do formulário de contato */
+.formulario-contato {
+  margin-top: 20px; /* Espaçamento acima do formulário */
+}
+
+/* Define a aparência dos botões */
+button {
+  margin-top: 10px; /* Espaçamento acima dos botões */
+  padding: 10px; /* Espaçamento interno dos botões */
+  background-color: #ff6f61; /* Cor de fundo dos botões */
+  color: white; /* Cor do texto dos botões */
+  border: none; /* Remove a borda dos botões */
+  border-radius: 5px; /* Bordas arredondadas dos botões */
+  cursor: pointer; /* Muda o cursor ao passar sobre os botões */
+  font-size: 16px; /* Tamanho da fonte dos botões */
+  transition: background-color 0.3s; /* Efeito de transição suave */
+}
+
+button:hover {
+  background-color: #d45d00; /* Cor de fundo ao passar o mouse */
+}

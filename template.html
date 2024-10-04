@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Cabeçalho da página -->
+        <header class="header">
+            <!-- Link da imagem de uma clínica universal -->
+            <img src="img/pexels-wutthichai-charoenburi-553075115-19921278.jpg" alt="Clínica Universal"/>
+            <h1>Contato</h1>
+        </header>
+
+        <!-- Menu lateral com links para outras páginas -->
+        <nav class="menu">
+            <ul>
+                <li><a href="horario_atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="#">Outros Serviços</a></li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo principal da página -->
+        <main class="content">
+            <h2>Informações de Contato</h2>
+            
+            <!-- Caixa de contato com informações -->
+            <div class="caixa-contato">
+                <h3>Entre em Contato</h3>
+                
+                <label for="celular">Celular:</label>
+                <input type="text" id="celular" placeholder="(11) 99999-9999" />
+
+                <label for="whatsapp">WhatsApp:</label>
+                <input type="text" id="whatsapp" placeholder="(11) 99999-9999" />
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" placeholder="Rua Exemplo, 123 - Bairro, Cidade, Estado" />
+            </div>
+
+            <!-- Mapa do Google -->
+            <h3>Localização</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31707.9719481262!2d-46.68916651507582!3d-23.558175284637963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cfaedc8e73%3A0xaaf8de36d8031a6a!2sRua%20Exemplo%2C%20123%20-%20Bairro%20Exemplo%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1696416485600!5m2!1spt-BR!2sbr" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+
+            <h3>Formulário de Contato</h3>
+            <form class="formulario-contato">
+                <label for="Nome" class="nome">
+                    Nome
+                    <input type="text" id="Nome" class="nome" required />
+                </label>
+
+                <label for="E-mail" class="email">
+                    E-mail
+                    <input type="email" id="E-mail" class="email" required/>
+                </label>
+
+                <label for="Assunto" class="assunto">
+                    Assunto
+                    <input type="text" id="Assunto" class="assunto" required />
+                </label>
+
+                <label for="mensagem" class="mensagem">Mensagem</label>
+                <textarea id="mensagem" class="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </main>
+
+        <!-- Rodapé da página -->
+        <footer class="footer">
+            <p>&copy; 2024 Clínica Exemplo. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
